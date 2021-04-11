@@ -43,7 +43,7 @@ function confirmGender(){
         gender = document.getElementsByName("gender").value;
     }
 
-if (gender == "male") {
+if (gender == "male" && validdate && validmonth) {
 if (result == 0){
     displayData.innerHTML = " The day of the week is" +daysOfWeek[0] + "Your akan name is " + akanMale[0];
 }else if(result == 1){
@@ -59,7 +59,7 @@ if (result == 0){
 }else if(result == 6){
     displayData.innerHTML = "The day of the week is" +daysOfWeek[6] + "Your akan name is " + akanMale[6];
 }
-}else if (gender == "female"){ 
+}else if (gender == "female" && validdate && validmonth){ 
 }if (result == 0){
     displayData.innerHTML = "The day of the week is "  +daysOfWeek[0] +  " Your akan name is  "  + akanFemale[0];
 }else if(result == 1){

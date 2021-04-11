@@ -5,7 +5,8 @@
 The sight allows one to feed in date of Birth - day,year and month - then this allows one to see their version of Akan names.
 ## Setup/Installation Requirements
 * Liveserver is needed to be installed
-## Known Bugs
+  node.js installation required
+ ## Known Bugs
 No known bugs yet.  Incase of any bugs feel free to edit it through my github account through; https://github.com/Qibet88/AKAN-NAMES
 ## Technologies Used
 Website coded using HTML,CSS, bootstrap,javascript
